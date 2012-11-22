@@ -200,7 +200,7 @@
 	height:96px;
 	float:left;
 	margin-right:1em;
-	background:url('../../img/external/explorer/logo.png') center center no-repeat;
+	background:url('../../../img/external/explorer/logo.png') center center no-repeat;
 }
 
 .elfinder-help h3 { font-size:1.5em; margin:.2em 0 .3em 0; }
@@ -318,7 +318,7 @@
 	height:16px;
 	left:43px;
 	top:55px;
-	background:url('../../img/external/explorer/toolbar.png') 0 -544px no-repeat;
+	background:url('../../../img/external/explorer/toolbar.png') 0 -544px no-repeat;
 	display:none;
 }
 
@@ -414,7 +414,7 @@
 .elfinder-contextmenu-arrow {
 	width:16px;
 	height:16px;
-	background:url('../../img/external/explorer/arrows-normal.png') 5px 4px no-repeat;
+	background:url('../../../img/external/explorer/arrows-normal.png') 5px 4px no-repeat;
 }
 
 /* arrow icon in rtl/ltr enviroment */
@@ -516,7 +516,7 @@
 	width:48px;
 	height:48px;
 	margin:0 auto;
-	background: url('../../img/external/explorer/icons-big.png') 0 0 no-repeat;
+	background: url('../../../img/external/explorer/icons-big.png') 0 0 no-repeat;
 	-moz-background-clip: padding; 
 	-webkit-background-clip: padding-box; 
 	background-clip: padding-box;
@@ -1044,7 +1044,7 @@
 .elfinder-rtl .elfinder-navbar .elfinder-symlink { right: 8px; }
 
 /* resizable */
-.elfinder-navbar .ui-resizable-handle { width:12px; background:transparent url('../../img/external/explorer/resize.png') center center no-repeat; left:0; }
+.elfinder-navbar .ui-resizable-handle { width:12px; background:transparent url('../../../img/external/explorer/resize.png') center center no-repeat; left:0; }
 .elfinder-nav-handle-icon {
 	position:absolute;
 	top:50%;
@@ -1448,7 +1448,7 @@ embed.elfinder-quicklook-preview-audio {
 	width:16px;
 	height:16px;
 	display:block;
-	background:url('../../img/external/explorer/toolbar.png')  no-repeat;
+	background:url('../../../img/external/explorer/toolbar.png')  no-repeat;
 }
 
 /* buttons icons */
