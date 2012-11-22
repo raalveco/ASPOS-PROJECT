@@ -3,5 +3,9 @@
 		public function index(){
 			
 		}
+		
+		public function forms(){
+			
+		}
 	}
 ?>
