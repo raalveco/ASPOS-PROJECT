@@ -62,7 +62,7 @@ input[type=button] {
 .checkbox img {
 	height: 16px;
 	width: 15px;
-	background: transparent url(../img/elements/checkbox/unchecked-normal.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/unchecked-normal.png) no-repeat;
 	
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -72,32 +72,32 @@ input[type=button] {
 
 /* Unchecked */
 .checkbox-hover img {
-	background: transparent url(../img/elements/checkbox/unchecked-hover.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/unchecked-hover.png) no-repeat;
 }
 
 .checkbox-clicked img {
-	background: transparent url(../img/elements/checkbox/unchecked-active.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/unchecked-active.png) no-repeat;
 }
 
 .checkbox-disabled img {
-	background: transparent url(../img/elements/checkbox/unchecked-disabled.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/unchecked-disabled.png) no-repeat;
 }
 
 /* Checked */
 .checkbox-checked img {
-	background: transparent url(../img/elements/checkbox/checked-normal.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/checked-normal.png) no-repeat;
 } 
 
 .checkbox-checked .checkbox-hover img {
-	background: transparent url(../img/elements/checkbox/checked-hover.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/checked-hover.png) no-repeat;
 }
 
 .checkbox-checked .checkbox-clicked img {
-	background: transparent url(../img/elements/checkbox/checked-active.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/checked-active.png) no-repeat;
 }
 
 .checkbox-checked .checkbox-disabled img {
-	background: transparent url(../img/elements/checkbox/checked-disabled.png) no-repeat;
+	background: transparent url(../../img/elements/checkbox/checked-disabled.png) no-repeat;
 }
 
 .checkbox + label {
@@ -118,37 +118,37 @@ input[type=button] {
 .radiobutton img {
 	height: 16px;
 	width: 15px;
-	background: transparent url(../img/elements/radiobutton/unchecked-normal.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/unchecked-normal.png) no-repeat;
 }
 
 /* Unchecked */
 .radiobutton-hover img {
-	background: transparent url(../img/elements/radiobutton/unchecked-hover.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/unchecked-hover.png) no-repeat;
 }
 
 .radiobutton-clicked img {
-	background: transparent url(../img/elements/radiobutton/unchecked-active.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/unchecked-active.png) no-repeat;
 }
 
 .radiobutton-disabled img {
-	background: transparent url(../img/elements/radiobutton/unchecked-disabled.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/unchecked-disabled.png) no-repeat;
 }
 
 /* Checked */
 .radiobutton-checked img {
-	background: transparent url(../img/elements/radiobutton/checked-normal.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/checked-normal.png) no-repeat;
 } 
 
 .radiobutton-checked .radiobutton-hover img {
-	background: transparent url(../img/elements/radiobutton/checked-hover.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/checked-hover.png) no-repeat;
 }
 
 .radiobutton-checked .radiobutton-clicked img {
-	background: transparent url(../img/elements/radiobutton/checked-active.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/checked-active.png) no-repeat;
 }
 
 .radiobutton-checked .radiobutton-disabled img {
-	background: transparent url(../img/elements/radiobutton/checked-disabled.png) no-repeat;
+	background: transparent url(../../img/elements/radiobutton/checked-disabled.png) no-repeat;
 }
 
 .radiobutton + label {
@@ -474,7 +474,7 @@ input[type=button] {
 
 .customfile-feedback-populated {
     padding-left: 20px;
-    background: url(../img/icons/packs/fugue/16x16/document.png) no-repeat left center;
+    background: url(../../img/icons/packs/fugue/16x16/document.png) no-repeat left center;
 }
 
 .customfile-button {
@@ -504,63 +504,63 @@ input[type=button] {
 
 /*file type icons*/
 .customfile-ext-jpg, .customfile-ext-jpeg, .customfile-ext-gif, .customfile-ext-png, .customfile-ext-jpeg, .customfile-ext-bmp, .customfile-ext-png, .customfile-ext-tif, .customfile-ext-tiff, .customfile-ext-eps, .customfile-ext-ps, .customfile-ext-svg {
-    background-image: url(../img/icons/packs/fugue/16x16/image.png);
+    background-image: url(../../img/icons/packs/fugue/16x16/image.png);
 }
 
 .customfile-ext-mp4, .customfile-ext-mov, .customfile-ext-swf, .customfile-ext-m4v  , .customfile-ext-3g2, .customfile-ext-3gp, .customfile-ext-avi, .customfile-ext-flv, .customfile-ext-mpg, .customfile-ext-mpeg, .customfile-ext-rm, .customfile-ext-vob, .customfile-ext-wmv {
-    background-image: url(../img/icons/packs/fugue/16x16/media-player.png);
+    background-image: url(../../img/icons/packs/fugue/16x16/media-player.png);
 }
 
 .customfile-ext-mp3, .customfile-ext-wav, .customfile-ext-mid, .customfile-ext-aif, .customfile-ext-mid, .customfile-ext-m4a, .customfile-ext-mpa, .customfile-ext-ra, .customfile-ext-wma {
-    background-image: url(../img/icons/packs/fugue/16x16/music.png);
+    background-image: url(../../img/icons/packs/fugue/16x16/music.png);
 }
 
 .customfile-ext-zip, .customfile-ext-tar, .customfile-ext-sit , .customfile-ext-7z, .customfile-ext-deb, .customfile-ext-gz, .customfile-ext-pkg, .customfile-ext-rar, .customfile-ext-rpm, .customfile-ext-sitx {
-    background-image: url(../img/icons/packs/fugue/16x16/document-zipper.png);
+    background-image: url(../../img/icons/packs/fugue/16x16/document-zipper.png);
 }
 
 .customfile-ext-jpg, .customfile-ext-jpeg, .customfile-ext-gif, .customfile-ext-png, .customfile-ext-jpeg, .customfile-ext-bmp, .customfile-ext-png, .customfile-ext-tif, .customfile-ext-tiff, .customfile-ext-eps, .customfile-ext-ps, .customfile-ext-svg {
-    background-image: url(../img/icons/packs/fugue/16x16/blue-document-image.png);
+    background-image: url(../../img/icons/packs/fugue/16x16/blue-document-image.png);
 }
 
 .customfile-ext-pdf {
-	background-image: url(../img/icons/packs/fugue/16x16/document-pdf-text.png);
+	background-image: url(../../img/icons/packs/fugue/16x16/document-pdf-text.png);
 }
 
 .customfile-ext-ppt, .customfile-ext-pptx, .customfile-ext-pptm, .customfile-ext-pot, .customfile-ext-potx, .customfile-ext-pps, .customfile-ext-ppsx, .customfile-ext-odp {
-   background-image: url(../img/icons/packs/fugue/16x16/document-powerpoint.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-powerpoint.png);
 }
 
 .customfile-ext-xlsx, .customfile-ext-xlsm, .customfile-ext-xslb, .customfile-ext-xltx, .customfile-ext-xltm, .customfile-ext-xls, .customfile-ext-xlt, .customfile-ext-xls, .customfile-ext-ods {
-   background-image: url(../img/icons/packs/fugue/16x16/document-excel.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-excel.png);
 }
 
 .customfile-ext-xps {
-   background-image: url(../img/icons/packs/fugue/16x16/document-office-text.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-office-text.png);
 }
 
 .customfile-ext-html, .customfile-ext-css, .customfile-ext-js, .customfile-ext-cpp, .customfile-ext-cxx, .customfile-ext-hpp, .customfile-ext-hxx, .customfile-ext-c, .customfile-ext-h, .customfile-ext-java, .customfile-ext-rb, .customfile-ext-python, .customfile-ext-pl, .customfile-ext-sql, .customfile-ext-lua, .customfile-ext-cs, .customfile-ext-m, .customfile-ext-vb, .customfile-ext-vbs {
-   background-image: url(../img/icons/packs/fugue/16x16/document-code.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-code.png);
 }
 
 .customfile-ext-psd, .customfile-ext-ppd {
-   background-image: url(../img/icons/packs/fugue/16x16/document-photoshop.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-photoshop.png);
 }
 
 .customfile-ext-ai {
-   background-image: url(../img/icons/packs/fugue/16x16/document-illustrator.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-illustrator.png);
 }
 
 .customfile-ext-doc, .customfile-ext-docx, .customfile-ext-dot, .customfile-ext-dotx, .customfile-ext-rtf, .customfile-ext-odt {
-   background-image: url(../img/icons/packs/fugue/16x16/document-word.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-word.png);
 }
 
 .customfile-ext-txt {
-   background-image: url(../img/icons/packs/fugue/16x16/document-text.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/document-text.png);
 }
 
 .customfile-ext-iso, .customfile-ext-dmg, .customfile-ext-bin, .customfile-ext-cue, .customfile-ext-mdf, .customfile-ext-vcd {
-   background-image: url(../img/icons/packs/fugue/16x16/disc.png);
+   background-image: url(../../img/icons/packs/fugue/16x16/disc.png);
 }
 
 
