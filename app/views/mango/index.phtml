@@ -1,3 +1,7 @@
+<?= Load::lib("html"); ?> 
+<?= Load::lib("formato"); ?> 
+<?= Load::lib("formulario"); ?>
+<br><br><br><div id="pruebas">Hola</div>
 <!----------------------->
 <!-- Some dialogs etc. -->
 
@@ -22,14 +26,14 @@
 
 	<div class="actions">
 		<div id="slide_to_unlock">
-			<img src="img/elements/slide-unlock/lock-slider.png" alt="slide me">
+		    <?= Html::imagen("elements/slide-unlock/lock-slider.png","slide me"); ?>
 			<span>slide to unlock</span>
 		</div>
-		<form action="#" method="GET">
-			<input type="password" name="pwd" id="pwd" placeholder="Enter your password here..." autocorrect="off" autocapitalize="off">
-			<input type="submit" name=send value="Unlock" disabled>
-			<input type="reset" value="X">
-		</form>
+        <?= Formulario::inicioAjax("mango/ajax","pruebas"); ?>
+            <?= Formulario::password("psw","","placeholder: Enter your password here...", "autocorrect: off", "autocapitalize: off") ?>
+            <?= Formulario::submit("Unlock","name: send", "disabled: disabled") ?>
+            <?= Formulario::reset("X"); ?>
+        <?= Formulario::fin(); ?>
 	</div><!-- End of .actions -->
 
 </div><!-- End of lock screen -->
@@ -39,13 +43,16 @@
 
 	<ul class="tabs center-elements">
 		<li>
-			<a href="#settings-1"><img src="img/icons/packs/fugue/24x24/user-business.png" alt="" /><span>Account Settings</span></a>
+		    <?= Html::link("menu/index",Html::imagen("icons/packs/fugue/24x24/user-business.png","")."<span>Account Settings</span>"); ?>
 		</li>
 		<li>
-			<a href="#settings-2"><img src="img/icons/packs/fugue/24x24/balloon.png" alt="" /><span>Notifications</span></a>
+		    <?= Html::link("menu/index",Html::imagen("icons/packs/fugue/24x24/balloon.png","")."<span>Notifications</span>"); ?>
 		</li>
 		<li>
-			<a href="#settings-3"><img src="img/icons/packs/fugue/24x24/credit-card.png" alt="" /><span>Invoicing</span></a>
+		    <?= Html::link("menu/index",Html::imagen("icons/packs/fugue/24x24/credit-card","")."<span>Invoicing</span>"); ?>
+		</li>
+		<li>
+		    <a href="#settings-3"><img src="img/icons/packs/fugue/24x24/.png" alt="" /><span></span></a>
 		</li>
 	</ul>
 

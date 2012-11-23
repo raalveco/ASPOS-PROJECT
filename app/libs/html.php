@@ -25,6 +25,11 @@
 			$params = is_array($accion) ? $accion : Util::getParams(func_get_args());
 			return  link_to($params);
 		}
+        
+        public static function linkAncla($ancla, $texto) {
+            $params = is_array($ancla) ? $ancla : Util::getParams(func_get_args());
+            return  link_to($params);
+        }
 	
 		public static function linkConfirmado($accion, $texto, $mensaje) {
 			$params = is_array($accion) ? $accion : Util::getParams(func_get_args());
@@ -98,7 +103,6 @@
 			if($h != "") {
 				$params["height"] = $h;
 			}
-			$params["border"] = "0";
 			
 			return  str_replace("###", ":", img_tag($params));
 		}

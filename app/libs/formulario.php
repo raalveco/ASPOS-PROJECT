@@ -31,8 +31,8 @@
                 $opciones .= ', beforeSubmit: function() { '.$params["before"].' }';
             }
             
-            $code = '<script type="text/javascript"> $.metadata.setType("attr", "validate"); $(document).ready(function() { $("#'.$params["id"].'").validate({}); }); </script>';
-            $code .= form_tag($params);
+            //$code = '<script type="text/javascript"> $.metadata.setType("attr", "validate"); $(document).ready(function() { $("#'.$params["id"].'").validate({}); }); </script>';
+            $code = form_tag($params);
 			
             return $code;
 		}
@@ -74,7 +74,7 @@
 
             return submit_tag($params);
         }
-		
+        
 		public static function submitBoton($texto, $color = "neutral", $icono="") {
 			if($color == "positivo"){
 				$color = "azul";

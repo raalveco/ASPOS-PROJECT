@@ -1595,6 +1595,8 @@
 							formData.push($(this).serializeArray());
 						});
 						
+						alert(formData);
+						
 						mango.settings.save(function(){
 							$content.dialog('close');
 						}, formData);
