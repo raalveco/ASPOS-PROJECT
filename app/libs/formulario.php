@@ -18,8 +18,8 @@
             
 			if($x==0) $x = rand(0,9999999);
             
-            $params["name"] = "f".$x;
-            $params["id"] = "f".$x;
+            if(!isset($params["name"])) $params["name"] = "f".$x;
+			if(!isset($params["id"])) $params["id"] = "f".$x;
             
             $opciones = '';
             
@@ -31,7 +31,7 @@
                 $opciones .= ', beforeSubmit: function() { '.$params["before"].' }';
             }
             
-            //$code = '<script type="text/javascript"> $.metadata.setType("attr", "validate"); $(document).ready(function() { $("#'.$params["id"].'").validate({}); }); </script>';
+            $code = '<script type="text/javascript"> $.metadata.setType("attr", "validate"); $(document).ready(function() { $("#'.$params["id"].'").validate({}); }); </script>';
             $code = form_tag($params);
 			
             return $code;

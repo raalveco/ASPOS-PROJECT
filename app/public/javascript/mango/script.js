@@ -1384,9 +1384,7 @@
 					
 				}
 				
-			})
-			.find('ul')
-				.click(mango.utils.noBubbling);
+			});
 		
 	});
 	

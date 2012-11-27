@@ -41,6 +41,10 @@ window.jQuery.ui || document.write('<?= javascript_include_tag('mango/libs/jquer
 window._ || document.write('<?= javascript_include_tag('mango/libs/js/libs/lodash.min',true) ?>')</script>
 
 <!-- scripts concatenated and minified via build script -->
+<?= javascript_include_tag('jquery/jquery.form')."\n" ?>
+<?= javascript_include_tag('jquery/jquery.metadata')."\n" ?>
+<?= javascript_include_tag('jquery/jquery.validate')."\n" ?>
+<?= javascript_include_tag('jquery/kumbia_jquery') ?>
 
 <!-- General Scripts -->
 <?= javascript_include_tag('mango/mylibs/jquery.hashchange') ?>

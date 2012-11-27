@@ -41,6 +41,7 @@
 			$params = is_array($accion) ? $accion : Util::getParams(func_get_args());
 			$params["rel"] = "#" . $contenedor;
 			$params["class"] = "jsRemote";
+			$params["id"] = "jsRemote";
 			return  link_to($params);
 		}
 		

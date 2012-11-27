@@ -19,6 +19,11 @@ jQuery(function($) {
 		$(this.rel).load(this.href)
 	});
 	
+	$("a#jsRemote").live('click', function(event) {
+		event.preventDefault();
+		$(this.rel).load(this.href)
+	});
+	
 	$("a.jsRemoteEliminar").live('click', function(event) {
 		event.preventDefault();
 		

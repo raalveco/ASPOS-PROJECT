@@ -1364,6 +1364,7 @@
 	
 		$main.find('section.toolbar').find('div.user')
 			.click(function(){
+				alert("Hola");
 			
 				var $this = $(this);
 				
